@@ -2,6 +2,7 @@ package com.example.androiddeveloperdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+//Happy New Year
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
