@@ -13,6 +13,12 @@ import kotlin.coroutines.suspendCoroutine
 //定义统一的网络数据源访问入口
 object SunnyWeatherNetWork {
 
+    private val weatherService = ServiceCreator.create(WeatherService::class.java)
+
+    suspend fun getDailyWeather(lng: String, lat: String) = weatherService.getDailyWeather(lng, lat).await()
+
+    suspend fun getRealtimeWeather(lng: String, lat: String) = weatherService.getRealtimeWeather(lng, lat).await()
+
     //创建动态代理对象
     private val placeService = ServiceCreator.create<PlaceService>()
 

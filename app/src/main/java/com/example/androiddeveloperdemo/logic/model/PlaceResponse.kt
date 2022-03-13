@@ -1,8 +1,6 @@
 package com.example.androiddeveloperdemo.logic.model
 
-import android.location.Address
 import android.location.Location
-import android.telephony.cdma.CdmaCellLocation
 import com.google.gson.annotations.SerializedName
 
 
