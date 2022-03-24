@@ -12,8 +12,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.androiddeveloperdemo.MainActivity
-import com.example.androiddeveloperdemo.ui.weather.WeatherActivity
 import com.example.androiddeveloperdemo.R
+import com.example.androiddeveloperdemo.ui.weather.WeatherActivity
 import kotlinx.android.synthetic.main.fragment_place.*
 
 
